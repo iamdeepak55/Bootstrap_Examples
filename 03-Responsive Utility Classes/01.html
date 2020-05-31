@@ -1,0 +1,49 @@
+<!--Responsive Utility Classes-->
+
+<!--
+1. visible-*
+2. hidden-*
+-->
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<link rel="stylesheet" href="/02-CSS/bootstrap.min.css">
+
+<style>
+    .customeDiv {
+        margin: 10px;
+        padding: 10px;
+        background-color: silver;
+        font-size: 18px;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="customeDiv">Column-1</div>
+            </div>
+            <div class="col-lg-3  col-md-4 col-sm-6 col-xs-12 hidden-xs">
+                <div class="customeDiv">Column-2</div>
+            </div>
+            <div class="col-lg-3  col-md-4 col-sm-6 col-xs-12 visible-lg visible-md">
+                <div class="customeDiv">Column-3</div>
+            </div>
+            <div class="col-lg-3  col-md-4 col-sm-6 col-xs-12 hidden-md hidden-xs hidden-sm">
+                <div class="customeDiv">Column-4</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!--Bootstrap Nested Rows and Columns-->
+
+<!DOCTYPE html>
+<html lang="">
+<style>
+    .sidebar {
+        margin-top: 10px;
+        min-height: 150px;
+        background-color: silver;
+        text-align: center;
+        font-size: large;
+    }
+
+    .maincontent {
+        margin-top: 10px;
+        min-height: 310px;
+        background-color: silver;
+        text-align: center;
+        font-size: large;
+    }
+
+    .customdiv {
+        margin-top: 20px;
+        min-height: 250px;
+        background-color: silver;
+        text-align: center;
+        font-size: large;
+    }
+
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="/02-CSS/bootstrap.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div>
+        <h2 style="text-align: center; color: crimson; ">Bootstrap Nested Rows and Columns </h2>
+    </div>
+
+
+
+    
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-3">
+
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="sidebar">sidebar-1</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="sidebar">sidebar-2</div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-xs-9">
+                <div class="maincontent">Main Content Area</div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+<!--
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-5">
+                <div class="customdiv">Column 5</div>
+            </div>
+
+            <div class="col-xs-7">
+
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="customdiv">Column 3.5</div>
+                    </div>
+
+                    <div class="col-xs-6">
+                        <div class="customdiv">Column 3.5</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>-->
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!--print classes-->
+
+<!--
+1. hidden-print
+2. visible-print
+-->
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<link rel="stylesheet" href="/02-CSS/bootstrap.min.css">
+
+<style>
+    .customeDiv {
+        margin: 10px;
+        padding: 10px;
+        background-color: silver;
+        font-size: 18px;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 hidden-print">
+                <div class="customeDiv">Visible on browser when not printing</div>
+            </div>
+            <div class="col-xs-12 visible-print">
+                <div class="customeDiv">Visible on printing</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

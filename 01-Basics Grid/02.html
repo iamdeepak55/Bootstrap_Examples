@@ -1,0 +1,62 @@
+<!--Boot strap Grid Classes-->
+
+<!DOCTYPE html>
+<html lang="">
+<style>
+    .customdiv {
+        margin-top: 20px;
+        min-height: 250px;
+        background-color: silver;
+        text-align: center;
+        font-size: large;
+
+    }
+
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="/02-CSS/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/02-CSS/bootstrap-3.min.css">
+</head>
+
+<body>
+    <div>
+        <h2 style="text-align: center; color: crimson; ">Bootstrap Grid Classes</h2>
+    </div>
+
+    <!--Create 2 column with 3:1 ratio for large devices (ld)-->
+    <!--Create 4 column with 1:1:1:1 ratio for mediam devices (md)-->
+    <!--Create 2 column with 1:1 ratio for small devices (sm)-->
+    <!--Create 1 column for extra small devices (xs)-->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-9 col-sm-6">
+                <div class="customdiv">Column-1</div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <div class="customdiv">Column-2</div>
+            </div>
+            <div class="col-md-3 col-lg-9 col-sm-6">
+                <div class="customdiv">Column-3</div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <div class="customdiv">Column-4</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
